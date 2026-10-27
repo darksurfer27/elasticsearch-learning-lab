@@ -1,0 +1,12 @@
+# EXAMPLE ONLY, NOT A COMPLETE RUNNABLE MULTI-NODE CONFIG.
+# Adapt on each node and RETAIN / ADD TLS settings produced by your security setup.
+cluster.name: learning-cluster
+node.name: es01                # change to es02/es03 on those hosts
+network.host: 192.168.50.11  # replace with YOUR actual LAN IP
+discovery.seed_hosts: ["es01", "es02", "es03"]
+xpack.security.enabled: true
+
+# REQUIRED for secure multi-node setups: configure transport TLS and HTTP TLS
+# with real certificates and correct filesystem paths, following Elastic docs.
+# DO NOT set xpack.security.enabled: false to bypass configuration.
+# Do not permanently retain cluster.initial_master_nodes after formation.

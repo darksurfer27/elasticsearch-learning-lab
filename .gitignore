@@ -1,0 +1,32 @@
+# Credentials, private keys and certificate bundles
+*.ppk
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdb
+*.asc
+*.env
+.env.*
+*token*.txt
+*password*.txt
+*secret*.txt
+credentials*
+
+# Logs and private output
+*.log
+*.ndjson
+*.pcap
+*.pcapng
+*.zip
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Private local setup values
+local-config/
+private/
+secrets/

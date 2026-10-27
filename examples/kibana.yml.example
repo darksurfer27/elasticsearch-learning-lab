@@ -1,0 +1,7 @@
+# EXAMPLE ONLY — Replace the training IPs, CA paths and secure credentials.
+server.host: "192.168.50.20"
+server.port: 5601
+elasticsearch.hosts: ["https://192.168.50.11:9200"]
+elasticsearch.ssl.certificateAuthorities: ["/etc/kibana/certs/es-http-ca.crt"]
+# Kibana needs an authorized enrollment / service-account authentication setup.
+# Never commit elasticsearch.serviceAccountToken or elasticsearch.password.
