@@ -1,4 +1,4 @@
-# Elasticsearch Learning Lab 🧪
+# Elasticsearch Learning Lab 
 
 **A beginner-friendly, practical homelab journey:** Linux → a 3-node Elasticsearch cluster → Kibana → Fleet Server → secure remote access.
 
@@ -54,7 +54,6 @@ flowchart TD
 | 4 | [Remote access with Tailscale + PuTTY](guides/04-remote-access.md) | VPN, jump host, `.ppk`, SSH tunneling to Kibana |
 | 5 | [Troubleshooting examples](guides/05-troubleshooting.md) | Errors encountered during the real learning lab |
 | 6 | [Next learning exercise: Linux Agents](guides/06-next-steps-linux-agents.md) | An **uncompleted exercise** to enroll more agents |
-| 7 | [How to publish on GitHub](guides/07-publish-to-github.md) | Upload, commit, preview, and security checks |
 
 Prefer Word? See [optional Word guides](word-guides/). **GitHub Markdown is the primary, easier-to-follow version.**
 
@@ -71,7 +70,7 @@ Prefer Word? See [optional Word guides](word-guides/). **GitHub Markdown is the 
 | Kibana SSH tunnel | **Documented configuration**; users should test in their environment |
 | Separate Linux Elastic Agents on all 3 ES nodes | **Not yet completed**; tutorial is a suggested next step |
 
-## ⚠️ Before copying commands
+##  Before copying commands
 
 - **Example network values are fictional** (`192.168.50.0/24`). Replace them with IPs actually assigned in your own lab. Never assign an example IP blindly.
 - `YOUR_...` and `<...>` mean **you must replace the placeholder**. Never type placeholder brackets literally unless a guide says so.
