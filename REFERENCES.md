@@ -10,6 +10,5 @@ These are starting points for further reading. The examples in this repository a
 - [Tailscale: download](https://tailscale.com/download)
 - [Tailscale: Linux installation](https://tailscale.com/kb/1031/install-linux)
 - [PuTTY documentation](https://www.chiark.greenend.org.uk/~sgtatham/putty/docs.html)
-- [GitHub: add files to repositories](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
 
 All product names are trademarks of their respective owners. This independent learning project is not affiliated with Elastic, Tailscale, or GitHub.
